@@ -1,0 +1,79 @@
+body{
+    font-family: 'Righteous', cursive;
+}
+h1{
+    text-align: center;
+    
+}
+.titles{
+    width: 100%;
+    background-color:rgb(52, 58, 64);
+    /* background-color:rgb(32, 99, 187); */
+    color:white;
+    
+}
+nav{
+margin-bottom: 20px;
+box-shadow:0px 2px 4px #333;
+margin-bottom: 0px;
+}
+
+.item{
+    border:1px solid rgb(185, 182, 182);
+    display: inline-block;
+    width:250px;
+    height: 400px;
+    margin:15px;
+    vertical-align: top;
+    border-radius: 6px;
+    padding:10px;
+
+}
+
+.item:hover{
+    box-shadow: -2px 3px 2px #bababa;
+    border-color:gray;
+}
+
+.item img{
+    width:190px;
+    height:120px;
+    margin:5px;
+    
+}
+
+.item button{
+    text-align: center;
+}
+
+.item .buttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.itemprice{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(158, 28, 28);
+}
+
+.hide{
+    display: none;
+}
+
+.item-saved{
+    background-color:rgb(140,204,138);
+    border:1px solid rgb(121,233,99);
+    margin-bottom: 10px;
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+.item-saved h6{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+}
+.comments{
+    margin-top:10px;
+}

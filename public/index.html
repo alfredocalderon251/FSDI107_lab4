@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkyShop</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/all.min.css">
+    
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><i class="fas fa-store-alt"></i>SkyShop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Catalog <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                    <a class="nav-link" href="/admin">Admin <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="/contact">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+            
+            
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" id="txt_search" type="search" placeholder="Search" aria-label="Search">
+            <button id="btn_search" class="btn btn-info my-2 my-sm-0" type="button"><i class="fas fa-search"></i>Search</button>
+          </form>
+        </div>
+      </nav>
+      <div class="titles">
+          <h1>Catalog</h1>
+        </div>
+<div class="container">
+  
+
+
+   
+    <div class="row">
+        <div class="col">
+                <div id="catalog" class="catalog-container">
+                    <!-- Inside here , generate the Items-->
+
+                    </div>
+
+        </div>
+    </div>
+
+    
+
+</div>
+    
+    
+    
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/catalog.js"></script>
+</body>
+</html>

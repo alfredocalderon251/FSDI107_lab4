@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkyShop Admin</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/admin.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/all.min.css">
+</head>
+<body>
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                                <a class="navbar-brand" href="#"><i class="fas fa-store-alt"></i>SkyShop</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav mr-auto">
+                        
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="/catalog">Catalog <span class="sr-only">(current)</span></a>
+                                    </li>
+                        
+                                    <li class="nav-item active">
+                                            <a class="nav-link" href="#">Admin <span class="sr-only">(current)</span></a>
+                                          </li>
+
+                                          <li class="nav-item">
+                                                        <a class="nav-link" href="/contact">Contact <span class="sr-only">(current)</span></a>
+                                                      </li>
+                                    
+                                    
+                                    
+                                  </ul>
+                                  
+                                </div>
+                              </nav>
+
+        <!-- code: "askk123",
+        title: "This is the first product",
+        price: 123.45,
+        description: "This is the long description of a product so the client learn about it and buy it",
+        category: "Electronics",
+        rating: 4,
+        image: "images/phone.jpg" -->
+        <div class="titles">
+                        <h1>Register New Item</h1>
+
+        </div>
+<div class="container">
+        
+
+        
+
+        <div id="alert" class="hide item-saved">
+                <h6>Item Saved</h6>
+        </div>
+
+        <form>
+                <div class="row">
+
+                        <div class="col-6">
+                                        <div class="form-group">
+                                                        <label for="code">Code</label>
+                                                        <input type="text" class=" form-control" id="txt_code" aria-describedby="code" placeholder="Enter Code">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="title">Title</label>
+                                                        <input type="text" class="form-control" id="txt_title" aria-describedby="title" placeholder="Enter Title">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="price">Price</label>
+                                                        <input type="number"  class="form-control" id="txt_price" aria-describedby="Price" placeholder="Enter Price">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="description">Description</label>
+                                                        <input type="text" class="form-control" id="txt_description" aria-describedby="description" placeholder="Enter Description">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="category">Category</label>
+                                                        <input type="text" class="form-control" id="txt_category" aria-describedby="category" placeholder="Enter Category">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="rating">Rating</label>
+                                                        <input type="number" min=0 max=5 class="form-control" id="txt_rating" aria-describedby="rating" placeholder="Enter Rating">                
+                                                </div>
+                                        
+                                                <div class="form-group">
+                                                        <label for="image">Image</label>
+                                                        <input type="text"  class="form-control" id="txt_image" aria-describedby="image" placeholder="Enter Image">                
+                                                </div>
+                        
+                                                <button id="btn_register" class="btn btn-primary" type="button">Register</button>
+
+                        </div>
+
+                        <div id="Messages_div" class="col-6">
+
+                        </div>
+
+                </div>
+                
+                </form>
+</div>
+        
+    
+    <script src="scripts/jquery-3.4.1.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>
